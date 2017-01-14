@@ -19,6 +19,7 @@ return [
      */
     'handlers' => [
         //add your own handlers here
+        App\SlashCommandHandlers\Hodor::class,
 
 
         //this handler will display instructions on how to use the various commands.
